@@ -5,7 +5,7 @@ import EleventyVitePlugin from "@11ty/eleventy-plugin-vite";
 import rss from '@11ty/eleventy-plugin-rss';
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import webc from '@11ty/eleventy-plugin-webc';
-import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
+import { eleventyImagePlugin } from '@11ty/eleventy-img';
 // Custom transforms
 // import { htmlConfig } from './plugins/html-config.js';
 // import { cssConfig } from './plugins/css-config.js';
@@ -22,5 +22,5 @@ export default {
   rss,
   syntaxHighlight,
   webc,
-  eleventyImageTransformPlugin
+  eleventyImagePlugin
 };
