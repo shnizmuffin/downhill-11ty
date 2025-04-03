@@ -7,6 +7,7 @@ import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import webc from '@11ty/eleventy-plugin-webc';
 import { eleventyImagePlugin } from '@11ty/eleventy-img';
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 // Custom transforms
 // import { htmlConfig } from './plugins/html-config.js';
 // import { cssConfig } from './plugins/css-config.js';
@@ -24,5 +25,6 @@ export default {
   syntaxHighlight,
   webc,
   eleventyImagePlugin,
-  eleventyImageTransformPlugin
+  eleventyImageTransformPlugin,
+  eleventyNavigationPlugin
 };
