@@ -26,14 +26,11 @@ export default function (url, pageUrl, pathPrefix = undefined) {
 
   // Look up the url of the current rendering page, which is accessible via
   // `this`.
-  // 
+  //
 
-
-  
   // this line needs work
   const currentDir = globalThis.page ? globalThis.page.url : pageUrl;
-  
-  
+
   const filteredUrl = urlFilter(url, '/');
 
   // Make sure the index.html is expressed.

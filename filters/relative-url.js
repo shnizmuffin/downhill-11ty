@@ -31,7 +31,7 @@ export default function (url, pageUrl, pathPrefix = undefined) {
   // `this`.
   const currentDir = pageUrl ? pageUrl : this.ctx.page.url;
   // console.log('currentDir: ' + currentDir);
-  
+
   const filteredUrl = urlFilter(url, '/');
   // console.log('filteredUrl: ' + filteredUrl);
 

@@ -1,13 +1,13 @@
 // Eleventy
 import { EleventyRenderPlugin } from '@11ty/eleventy';
-import { InputPathToUrlTransformPlugin } from "@11ty/eleventy";
-import EleventyVitePlugin from "@11ty/eleventy-plugin-vite";
+import { InputPathToUrlTransformPlugin } from '@11ty/eleventy';
+import EleventyVitePlugin from '@11ty/eleventy-plugin-vite';
 import rss from '@11ty/eleventy-plugin-rss';
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import webc from '@11ty/eleventy-plugin-webc';
 import { eleventyImagePlugin } from '@11ty/eleventy-img';
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
-import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import eleventyNavigationPlugin from '@11ty/eleventy-navigation';
 // Custom transforms
 // import { htmlConfig } from './plugins/html-config.js';
 // import { cssConfig } from './plugins/css-config.js';
@@ -26,5 +26,5 @@ export default {
   webc,
   eleventyImagePlugin,
   eleventyImageTransformPlugin,
-  eleventyNavigationPlugin
+  eleventyNavigationPlugin,
 };

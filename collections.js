@@ -1,5 +1,5 @@
-import pages from './collections/pages.js'
+import pages from './collections/pages.js';
 
 export default {
-  pages
-}
+  pages,
+};

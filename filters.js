@@ -7,5 +7,5 @@ export default {
   relativeDir,
   relativeUrl,
   flatMap,
-  unique
+  unique,
 };
